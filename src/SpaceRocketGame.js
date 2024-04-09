@@ -122,6 +122,7 @@ const App = () => {
               prevObstacles.filter((o) => o.id !== obstacle.id)
             );
             setScore((prevScore) => prevScore + 1);
+            console.log(score)
             setBullets((prevBullets) =>
               prevBullets.filter((b) => b.id !== bullet.id)
             );

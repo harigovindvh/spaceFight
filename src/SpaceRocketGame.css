@@ -6,32 +6,32 @@
     height: 100vh;
     background-color: black;
     cursor: none; /* Hide the default cursor */
-  }
-  
-  .rocket {
+}
+
+.rocket {
     position: absolute;
     width: 60px;
     height: 180px;
     background-color: #3B91C2;
     border-radius: 50% 50% 0 0;
     overflow: hidden;
-  }
-  
-  .bullet {
+}
+
+.bullet {
     position: absolute;
     width: 3px;
     height: 6px;
     background-color: yellow;
-  }
-  
-  .obstacle {
+}
+
+.obstacle {
     position: absolute;
     width: 30px;
     height: 30px;
     background-color: red;
-  }
-  
-  .game-over {
+}
+
+.game-over {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -42,5 +42,29 @@
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
-  }
-  
+}
+
+.restart-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.restart-btn:hover {
+    background-color: #45a049;
+}
+
+.score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    color: white;
+}
